@@ -21,7 +21,7 @@ Here we will put the appropriate port needed to be activated
 /dev/ttyS0 and so forth
 from my machine /dev/ttyS4 seems to be free and writable
 
-path for the wavefile needs to be changed to meet the deploment.
+path for the wavefile needs to be changed to meet the deployment.
 '''
 #dmesg | grep tty
 ser = serial.Serial('/dev/ttyS4')
